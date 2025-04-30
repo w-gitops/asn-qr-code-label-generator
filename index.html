@@ -99,11 +99,11 @@
               <p
                 class="prose prose-sm prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-700 max-w-none"
               >
-                The number of labels generated will be 7 x 27 = 189. This means
+                The number of labels generated will be 8 x 20 = 160. This means
                 the <strong>next batch</strong> of labels should
                 <strong
                   >start with
-                  <span x-text="parseInt(startNumber, 10) + 189"
+                  <span x-text="parseInt(startNumber, 10) + 160"
                     >190</span
                   ></strong
                 >.
@@ -197,7 +197,7 @@
       class="container mx-auto w-[210mm] border px-[8.45mm] py-[13.5mm] print:w-full print:max-w-full print:border-0"
     >
       <!-- Display QR Code Labels -->
-      <ol class="grid grid-cols-7 gap-x-[2.55mm]">
+      <ol class="grid grid-cols-8 gap-x-[2.55mm]">
         <template x-for="label in labels">
           <li class="h-[10mm] w-[25.4mm]">
             <div
